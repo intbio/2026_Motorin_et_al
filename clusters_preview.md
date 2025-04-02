@@ -49,7 +49,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var stage = new NGL.Stage("viewport1",{ backgroundColor:"#FFFFFF" });
-      stage.loadFile("DNA_bb-h_ref.pdb").then(function (nucl) {
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
         nucl.addRepresentation('cartoon', {
@@ -80,7 +80,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
-      stage.loadFile("DNA_bb-h_ref.pdb").then(function (nucl) {
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
         nucl.addRepresentation('cartoon', {
@@ -98,7 +98,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_3.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 20, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 50, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
