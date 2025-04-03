@@ -35,7 +35,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_1.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 20, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -67,7 +67,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_2.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 20, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -76,7 +76,7 @@
   </script>
   <div id="viewport1" style="width:500px; height:500px; border: thin solid black"></div>
   
-  <h3> Cluster 4</h3>
+  <h3> Cluster 3</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
@@ -98,7 +98,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_3.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 50, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -106,5 +106,286 @@
     });
   </script>
   <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 4</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_4.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 5</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_5.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 6</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_6.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 7</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_7.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 8</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_8.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 9</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_9.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 10</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_10.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 11</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_11.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  <h3> Cluster 12</h3>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
+        var aspectRatio = 2;
+        var radius = 1.5;
+        nucl.addRepresentation('cartoon', {
+           "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('cartoon', {
+           "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('base', {
+           "sele": "nucleic", "color": "grey"});
+        NGL.autoLoad("trj/clusters_partial/cluster_12.xtc").then(function (frames) {
+          nucl.addTrajectory(frames);
+          var traj = nucl.trajList[0].trajectory;
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          player.play();
+        });  
+        nucl.autoView();
+      });
+    });
+  </script>
+  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+
+  
 </body>
 </html>
