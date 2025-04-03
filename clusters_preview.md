@@ -167,12 +167,12 @@
       });
     });
   </script>
-  <div id="viewport5" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport4" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 6</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport6",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport5",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -198,7 +198,7 @@
       });
     });
   </script>
-  <div id="viewport6" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport5" style="width:500px; height:500px; border: thin solid black"></div>
 
   
 </body>
