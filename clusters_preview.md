@@ -110,7 +110,7 @@
   <h3> Cluster 4</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport3",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -136,12 +136,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport3" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 5</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport4",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -167,12 +167,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport5" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 6</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport6",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -198,12 +198,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport6" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 7</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport6",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -229,12 +229,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport6" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 8</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport7",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -260,12 +260,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport7" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 9</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport8",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -291,12 +291,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport8" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 10</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport9",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -322,12 +322,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport9" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 11</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport10",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -353,12 +353,12 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport10" style="width:500px; height:500px; border: thin solid black"></div>
 
   <h3> Cluster 12</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
+      var stage = new NGL.Stage("viewport11",{ backgroundColor:"#FFFFFF" });
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
@@ -384,7 +384,7 @@
       });
     });
   </script>
-  <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
+  <div id="viewport11" style="width:500px; height:500px; border: thin solid black"></div>
 
   
 </body>
