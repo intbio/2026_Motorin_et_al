@@ -12,7 +12,8 @@ by Motorin et al.
 - [NCP<sub>150 mM</sub><sup>run_3</sup> - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM NaCl (PDB ID 3LZ0), run_3](nucl_150_3_trj_preview)
 - [NCP<sub>100 mM</sub> - MD simulation trajectory of nucleosome core particle with full tails in solution with 100 mM NaCl (PDB ID 3LZ0)](nucl_100_trj_preview)
 - [NCP<sub>20 mM</sub> - MD simulation trajectory of nucleosome core particle with full tails in solution with 20 mM NaCl (PDB ID 3LZ0)](nucl_20_trj_preview)
-- [12 conformational clusters of H3 tail ](clusters_preview)
+- [12 conformational clusters of H3 tail (1-6)](clusters_preview)
+- [12 conformational clusters of H3 tail (7-12) ](clusters_preview_2)
 
 
 ### Trajectory files
