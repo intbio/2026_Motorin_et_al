@@ -1,4 +1,3 @@
-
 ### Характерные моды движения системы димера гистонов Н2А/Н2В (замена в Н2А G47K) с участком ДНК 30 пар нуклеотидов, выделенные методом анализа главных компонент матрицы ковариаций атомов белка и ДНК 
 [Back](https://intbio.org/2025_NCP_tails_MD)
 
@@ -12,8 +11,8 @@
   <p style="color:#E0F705;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H2A</p>
   <p style="color:#CE0000;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H2B</p>
   <p style="color:#808080;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">DNA</p>
-
-    <h3> Cluster 7</h3>
+ <h3> Cluster 7</h3>
+  <script src="https://unpkg.com/ngl@2.0.0-dev.35/dist/ngl.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var stage = new NGL.Stage("viewport0",{ backgroundColor:"#FFFFFF" });
@@ -43,7 +42,8 @@
     });
   </script>
   <div id="viewport0" style="width:500px; height:500px; border: thin solid black"></div>
-
+  
+  
   <h3> Cluster 8</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -74,7 +74,7 @@
     });
   </script>
   <div id="viewport1" style="width:500px; height:500px; border: thin solid black"></div>
-
+  
   <h3> Cluster 9</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
