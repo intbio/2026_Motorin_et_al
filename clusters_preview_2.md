@@ -34,7 +34,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_7.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 120, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -66,7 +66,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_8.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 120, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -97,7 +97,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_9.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 120, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -128,7 +128,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_10.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 120, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -159,7 +159,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_11.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 120, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
@@ -190,7 +190,7 @@
         NGL.autoLoad("trj/clusters_partial/cluster_12.xtc").then(function (frames) {
           nucl.addTrajectory(frames);
           var traj = nucl.trajList[0].trajectory;
-          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 70, direction : "bounce"});
+          var player = new NGL.TrajectoryPlayer( traj,{step: 1, timeout: 120, direction : "bounce"});
           player.play();
         });  
         nucl.autoView();
