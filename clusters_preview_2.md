@@ -19,14 +19,16 @@
       stage.loadFile("trj/clusters_partial/tail_dna_wt.pdb").then(function (nucl) {
         var aspectRatio = 2;
         var radius = 1.5;
+        var hyper_scheme = NGL.ColormakerRegistry.addSelectionScheme([
+          ["orange", ".CA"],
+          ["blue", "_N"],
+          ["red", "_O"],
+          ["grey", "*"]
+        ], "DA");
         nucl.addRepresentation('cartoon', {
            "sele": ":A :E", "color": 0x020AED,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
-        nucl.addRepresentation('cartoon', {
-           "sele": ":B :F", "color": "green","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
-        nucl.addRepresentation('cartoon', {
-           "sele": ":C :G", "color": 0xE0F705,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
-        nucl.addRepresentation('cartoon', {
-           "sele": ":D :H", "color": 0xCE0000,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
+        nucl.addRepresentation('hyperball', {
+           "sele": "(ARG or LYS) and not _H", "color": hyper_scheme,"aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });;
         nucl.addRepresentation('cartoon', {
            "sele": "nucleic", "color": "grey","aspectRatio":aspectRatio, "radius":radius,"radiusSegments":1,"capped":0 });
         nucl.addRepresentation('base', {
