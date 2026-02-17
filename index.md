@@ -18,10 +18,10 @@ by Motorin et al.
 - [NCP<sub>20 mM</sub><sup>run_3</sup> - MD simulation trajectory of nucleosome core particle with full tails in solution with 20 mM NaCl (PDB ID 3LZ0), run_3](nucl_20_3_trj_preview)
 
 ### H3 histone MD 
-- [H3<sup>run_1</sup> - MD simulation trajectory of intact H3 histone in solution with 150 mM KCl (PDB ID 3LZ0), run_1](hist_1_trj_preview)
-- [H3<sup>run_2</sup> - MD simulation trajectory of intact H3 histone in solution with 150 mM KCl (PDB ID 3LZ0), run_2](hist_2_trj_preview)
-- [H3<sup>run_3</sup> - MD simulation trajectory of intact H3 histone in solution with 150 mM KCl (PDB ID 3LZ0), run_3](hist_3_trj_preview)
-- [H3<sup>run_4</sup> - MD simulation trajectory of intact H3 histone in solution with 150 mM KCl (PDB ID 3LZ0), run_4](hist_4_trj_preview)
+- [H3<sup>run_1</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_1](hist_1_trj_preview)
+- [H3<sup>run_2</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_2](hist_2_trj_preview)
+- [H3<sup>run_3</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_3](hist_3_trj_preview)
+- [H3<sup>run_4</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_4](hist_4_trj_preview)
 
 ## Trajectory files
 - NCP<sub>150 mM</sub><sup>run_1</sup>  - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM NaCl (PDB ID 3LZ0), run_1: [pdb](trj/wt_1.pdb), [xtc](trj/wt_1_10ns.xtc)
