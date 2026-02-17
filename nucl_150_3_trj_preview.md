@@ -1,4 +1,4 @@
-### NCP<sub>150 mM</sub><sup>run_3</sup> - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM NaCl (PDB ID 3LZ0), run_3
+### NCP<sub>150 mM</sub><sup>run_3</sup> - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM KCl (PDB ID 3LZ0), run_3
 [Back](https://intbio.github.io/2025_NCP_tails_MD)
 
 <html lang="en">
