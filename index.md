@@ -23,5 +23,18 @@ by Nikita A. Motorin, Pavel A. Mironov, Anastasiia S. Fedulova, Grigoriy A. Arme
 - [H3<sup>run_4</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_4](hist_4_trj_preview)
 
 ## Trajectory files
-- NCP<sub>150 mM</sub><sup>run_1</sup>  - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM NaCl (PDB ID 3LZ0), run_1: [pdb](trj/wt_1.pdb), [xtc](trj/wt_1_10ns.xtc)
+
+- NCP<sub>150 mM</sub><sup>run_1</sup>  - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM KCl (PDB ID 3LZ0), run_1: [pdb](trj/wt_for_web.pdb), [xtc](trj/wt_for_web.xtc)
+- NCP<sub>150 mM</sub><sup>run_2</sup>  - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM KCl (PDB ID 3LZ0), run_2: [pdb](trj/wt_1_for_web.pdb), [xtc](trj/wt_1_for_web.xtc)
+- NCP<sub>150 mM</sub><sup>run_3</sup>  - MD simulation trajectory of nucleosome core particle with full tails in solution with 150 mM KCl (PDB ID 3LZ0), run_3: [pdb](trj/wt_2_for_web.pdb), [xtc](trj/wt_2_for_web.xtc)
+ 
+- NCP<sub>20 mM</sub><sup>run_1</sup> - MD simulation trajectory of nucleosome core particle with full tails in solution with 20 mM KCl (PDB ID 3LZ0), run_1: [pdb](trj/wt_20mM_for_web.pdb), [xtc](trj/wt_20mM_for_web.xtc)
+- NCP<sub>20 mM</sub><sup>run_2</sup> - MD simulation trajectory of nucleosome core particle with full tails in solution with 20 mM KCl (PDB ID 3LZ0), run_2: [pdb](trj/wt_1_20mM_for_web.pdb), [xtc](trj/wt_1_20mM_for_web.xtc)
+- NCP<sub>20 mM</sub><sup>run_3</sup> - MD simulation trajectory of nucleosome core particle with full tails in solution with 20 mM KCl (PDB ID 3LZ0), run_3: [pdb](trj/wt_2_20mM_for_web.pdb), [xtc](trj/wt_2_20mM_for_web.xtc)
+
+- H3<sup>run_1</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_1: [pdb](trj/H3_MD_for_web.pdb), [xtc](trj/H3_MD_for_web.xtc)
+- H3<sup>run_2</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_2: [pdb](trj/H3_MD_3_for_web.pdb), [xtc](trj/H3_MD_3_for_web.xtc)
+- H3<sup>run_3</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_3: [pdb](trj/H3_MD_2_for_web.pdb), [xtc](trj/H3_MD_2_for_web.xtc)
+- H3<sup>run_4</sup> - MD simulation trajectory of free H3 histone in solution with 150 mM NaCl (PDB ID 3LZ0), run_4: [pdb](trj/H3_MD_3_for_web.pdb), [xtc](trj/H3_MD_3_for_web.xtc)
+
 
