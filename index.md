@@ -3,7 +3,7 @@
 by Nikita A. Motorin, Pavel A. Mironov, Anastasiia S. Fedulova, Grigoriy A. Armeev, Alexander S. Paramonov, Zakhar O. Shenkarev, and Alexey K. Shaytan
 
 # GitHub repository
-[https://github.com/intbio/2025_NCP_tails_MD](https://github.com/intbio/2026_Motorin_et_al)
+[https://github.com/intbio/2025_NCP_tails_MD](https://github.com/intbio/2026_Motorin_et_al )
 
 ## Interactive preview of MD trajectories
 ### NCP simulations, 150 mM 
