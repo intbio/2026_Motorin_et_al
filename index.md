@@ -1,9 +1,9 @@
 # Supplementary data
-# Conformational dynamics of the histone H3 tail in the nucleosome: an NMR spectroscopy study, providing mechanistic insight into the details of interactions with DNA
-by Motorin et al.
+# Conformational Landscape of the Histone H3 N-Terminal Domain: Effects of DNA Contacts and Ionic Strength
+by Nikita A. Motorin, Pavel A. Mironov, Anastasiia S. Fedulova, Grigoriy A. Armeev, Alexander S. Paramonov, Zakhar O. Shenkarev, and Alexey K. Shaytan
 
 # GitHub repository
-[https://github.com/intbio/2025_NCP_tails_MD](https://github.com/intbio/2025_NCP_tails_MD)
+[https://github.com/intbio/2025_NCP_tails_MD](https://github.com/intbio/2026_Motorin_et_al)
 
 ## Interactive preview of MD trajectories
 ### NCP simulations, 150 mM 
